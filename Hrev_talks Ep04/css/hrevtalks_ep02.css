@@ -47,11 +47,12 @@ img{display:block;width:100%}
 .header_hrevtalks .nav_scroll ul li:last-child a {padding-right:0;color:#53D7E9}
 
 /* 메인비주얼 */
-.mainvisual {margin-top:60px;background:url(https://4570750.fs1.hubspotusercontent-na1.net/hubfs/4570750/HREVTALKS/Ep.02/bg_mainvisual.png) center top no-repeat;background-size:cover;transition:.3s}
-.mainvisual .inner {height:750px;box-sizing:border-box}
-.mainvisual .txts {float:left;width:506px;margin-right:144px;padding-top:270px;}
+.mainvisual { display: flex; flex-direction: row; margin-top:60px;background:url(https://4570750.fs1.hubspotusercontent-na1.net/hubfs/4570750/HREVTALKS/Ep.02/bg_mainvisual.png) center top no-repeat;background-size:cover;transition:.3s}
+.mainvisual .inner { display: flex; height:750px;box-sizing:border-box}
+.mainvisual .txts { margin-right:144px;padding-top:270px;}
 .mainvisual .txts em {display:block;margin-bottom:2px;font-size:20px;font-weight:600;line-height:28px;color:#fff}
 .mainvisual .txts strong {margin-bottom:16px;font-size:64px;line-height:84px;letter-spacing:-2.5px;color:#fff;text-shadow:1px 1px 32px #000}
+.mainvisual .txts span { display: block;}
 .mainvisual .txts a {display:inline-block;width:210px;height:46px;line-height:46px;border-radius:23px;font-size:18px;color:#fff;font-weight:600;text-align:center;background-color:#21BBD0;transition:.3s}
 .mainvisual .txts a:hover {background-color:#28C9C4}
 .mainvisual .visual {overflow:hidden;padding-top:165px}
@@ -60,14 +61,16 @@ img{display:block;width:100%}
 .mainvisual .visual img.on {transform:translateY(0px);opacity:1}
 
 /* 섹션 - about */
-.sect_about {padding-bottom:80px;background: linear-gradient(180deg, #282A34 0%, #0C0B1B 100%);position:relative}
-.sect_about .inner>.txts {transform:translateY(60px);opacity:0;transition:.6s}
-.sect_about .inner>.txts p {font-weight:500}
+.sect_about { padding-bottom:80px;background: linear-gradient(180deg, #282A34 0%, #0C0B1B 100%);position:relative}
+.sect_about .inner>.txts { display: flex; flex-direction: column; align-items: center; justify-content: center; transform:translateY(60px);opacity:0;transition:.6s}
+.sect_about .inner>.txts p { word-break: keep-all; white-space: pre-wrap; text-align: center; font-weight:500}
+.sect_about .inner>.txts span.importTxt { color: #4190FF;}
 .sect_about .inner>.txts.on {transform:translateY(0);opacity:1}
 .sect_about .explain {width:688px;padding-top:120px;margin:0 auto}
 .sect_about .explain img {float:left;width:166px;margin-right:64px;transform:translateY(60px);opacity:0;transition:.6s}
 .sect_about .explain img.on {transform:translateY(0);opacity:1}
 .sect_about .explain .txts {overflow:hidden;transform:translateY(60px);opacity:0;transition-duration:.6s;transition-delay:.3s}
+.sect_about .explain .txts p { white-space: pre-wrap; }
 .sect_about .explain img.on+.txts {transform:translateY(0);opacity:1}
 .sect_about .explain .txts strong {margin-top:-12px}
 div[class^="sect_"].sect_about .explain .txts p {margin-bottom:0}
@@ -80,6 +83,59 @@ div[class^="sect_"].sect_about .explain .txts p {margin-bottom:0}
 .sect_about .attend ul li+li:before {content:'';position:absolute;left:0;top:28px;width:1px;height:164px;background-color:#c4c4c4;opacity:0.2}
 .sect_about .attend ul li img {width:80px;margin:32px auto 14px}
 .sect_about .attend ul li span {font-size:16px}
+
+/* 말풍선 */
+.historyInner { display: inline-block; height: 1200px; background: url(../img/HREVTALKS/EP.04/Group\ 481678.png) center  no-repeat; width: 80%; background-size: contain; }
+ .circle {
+	 border-radius: 50%;
+	 width: 200px;
+	 height: 200px;
+	 overflow: hidden;
+	 position: relative;
+	 border: 8px solid #fff;
+	 transform: scale(1);
+	 transition: transform 0.3s;
+	 margin: 20px;
+	/***Flip card section***/
+}
+ .circle__row {
+	 display: flex;
+	 flex-wrap: wrap;
+	 justify-content: space-around;
+	 align-items: center;
+}
+ .circle--text {
+	 display: flex;
+	 opacity: 0;
+	 border-radius: 50%;
+	 background-color: rgba(0, 0, 0, 0.6);
+	 color: white;
+	 text-align: center;
+	 justify-content: center;
+	 align-items: center;
+	 position: absolute;
+	 width: 100%;
+	 height: 100%;
+	 top: 0;
+	 padding: 10px;
+	 transition: opacity 0.5s;
+}
+ .circle--btn {
+	 display: block;
+}
+ .circle:hover {
+	 transform: scale(1.1);
+	 transition: transform 0.2s;
+	 border-top-color: #4190FF;
+	 border-left-color: #4190FF;
+	 border-bottom-color: #4190FF;
+	 border-right-color: #4190FF;
+	 transition: transform 0.2s, border-top-color 0.18s linear, border-left-color 0.18s linear 0.1s, border-bottom-color 0.18s linear 0.2s, border-right-color 0.18s linear 0.15s;
+}
+ .circle:hover .circle--text {
+	 opacity: 1;
+}
+ 
 
 /* 섹션 - agenda */
 .bg_group {background:linear-gradient(180deg, #101114 0%, #0B1E28 100%)}

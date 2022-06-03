@@ -1,0 +1,276 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap');
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,
+b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	vertical-align: baseline;
+  font-weight:500;
+  color:#17181A;
+  letter-spacing:-1px
+}
+img{display:block;width:100%}
+strong{display:block}
+
+.hrev_talk{padding-top:60px;font-family:'Noto Sans KR', sans-serif;}
+.hrev_talk strong,.hrev_talk p,.hrev_talk div,.hrev_talk em,.hrev_talk span,.hrev_talk a{font-family:'Noto Sans KR', sans-serif;}
+@media (max-width: 768px) {
+  .hrev_talk{padding-top:60px;font-family:'Noto Sans KR', sans-serif;}
+  .hrev_talk strong,.hrev_talk p,.hrev_talk div,.hrev_talk em,.hrev_talk span,.hrev_talk a{font-family:'Noto Sans KR', sans-serif;}
+}
+.hrev_talk .btn{display:block;width:160px;border-radius:8px;font-weight:bold;font-size:16px;line-height:48px;padding:0 16px;text-align:center;border:1px solid #007AFF;color:#fff;background-color:#007AFF}
+.hrev_talk .btn0{display:block;width:160px;border-radius:8px;font-weight:bold;font-size:16px;line-height:48px;padding:0 3px;text-align:center;border:1px solid #C54151;color:#fff;background-color:#C54151}
+@media (max-width: 768px) {
+  .hrev_talk .btn{display:block;width:100px;border-radius:5px;font-weight:bold;font-size:12px;line-height:24px;padding:0 8px;text-align:center;border:1px solid #007AFF;color:#fff;background-color:#007AFF}
+  .hrev_talk .btn0{display:block;width:100px;border-radius:5px;font-weight:bold;font-size:12px;line-height:24px;padding:0 0;text-align:center;border:1px solid #C54151;color:#fff;background-color:#C54151}
+}
+.hrev_talk .feature_talk{position:relative;height:600px;padding-top:190px;text-align:center;background:url(https://www.midashri.com/hubfs/HREVTALKS/Top_Banner-2.png) center center no-repeat;background-size:cover;box-sizing:border-box}
+.hrev_talk .feature_talk .banner_ribbon{position:absolute;left:0;right:0;top:0;background-color:#111}
+.hrev_talk .feature_talk .banner_ribbon .inner{width:1080px;height:48px;margin:0 auto}
+.hrev_talk .feature_talk .banner_ribbon img{float:left;width:94px;margin-top:14px}
+.hrev_talk .feature_talk .banner_ribbon a{float:right;width:140px;height:32px;border:1px solid #fff;font-size:14px;line-height:30px;border-radius:4px;text-align:center;margin-top:8px;color:#fff;font-weight:700}
+.hrev_talk .feature_talk h1{width:470px;margin:0 auto 24px}
+.hrev_talk .feature_talk h2{font-size:48px;font-weight:700;text-align:center;}
+@media (max-width: 768px) {
+  .hrev_talk .feature_talk{position:relative;height:210px;padding-top:70px;text-align:center;background:url(https://www.midashri.com/hubfs/HREVTALKS/Top_Banner-2.png) center center no-repeat;background-size:cover;box-sizing:border-box}
+  .hrev_talk .feature_talk .banner_ribbon{position:absolute;width:100vw;height:45px;left:0;right:0;top:0;background-color:#111}
+  .hrev_talk .feature_talk .banner_ribbon .inner{width:100vw;height:12vw;margin:0}
+  .hrev_talk .feature_talk .banner_ribbon img{float:left;width:94px;margin-top:14px;margin-left:14px;}
+  .hrev_talk .feature_talk .banner_ribbon a{float:right;width:100px;margin-right:14px;height:30px;border:1px solid #fff;font-size:10px;line-height:30px;border-radius:4px;text-align:center;margin-top:8px;color:#fff;font-weight:700}
+  .hrev_talk .feature_talk h1{width:190px;margin:0 auto 12px}
+  .hrev_talk .feature_talk h2{font-size:19px;font-weight:700;text-align:center;}
+}
+.hrev_talk .sect1 .btn{margin:48px auto 0}
+.hrev_talk .sect1 .btn0{margin:20px auto 0}
+.hrev_talk .sect1{text-align:center;padding:64px 0}
+.hrev_talk .sect1 h3{font-size:48px;line-height:64px;font-weight:700;margin-bottom:32px}
+.hrev_talk .sect1 strong{display:block;width:420px;margin:0 auto 24px;font-size:24px;font-weight:500;position:relative;padding-bottom:34px;border-bottom:1px solid #000}
+.hrev_talk .sect1 strong:after{position:absolute;right:0;top:0;width:6px;height:6px;border-radius:3px;background-color:red;content:''}
+.hrev_talk .sect1 p{font-size:20px;line-height:40px;}
+@media (max-width: 768px) {
+  .hrev_talk .sect1 .btn{margin:10px auto 0}
+  .hrev_talk .sect1 .btn0{margin:5px auto 0}
+  .hrev_talk .sect1{text-align:center;padding:15px 0}
+  .hrev_talk .sect1 h3{font-size:30px;line-height:40px;font-weight:700;margin-bottom:10px}
+  .hrev_talk .sect1 strong{display:block;width:235px;margin:0 auto 10px;font-size:14px;font-weight:500;position:relative;padding-bottom:10px;border-bottom:1px solid #000}
+  .hrev_talk .sect1 strong:after{position:absolute;right:0;top:0;width:6px;height:6px;border-radius:3px;background-color:red;content:''}
+  .hrev_talk .sect1 p{font-size:12px;line-height:20px;}
+}
+.hrev_talk .teaser{background-color:#000}
+.hrev_talk .teaser .box_vod{position:relative;box-sizing:border-box;overflow:hidden;height:480px;text-align:Center;line-height:480px;font-size:30px}
+.hrev_talk .teaser .box_vod video{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:100%}
+@media (max-width: 768px) {
+  .hrev_talk .teaser{background-color:#000}
+  .hrev_talk .teaser .box_vod{position:relative;box-sizing:border-box;overflow:hidden;height:220px;text-align:Center;line-height:480px;font-size:30px}
+  .hrev_talk .teaser .box_vod video{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:100%}
+}
+.hrev_talk .teaser .txt{padding:48px 0;width:768px;margin:0 auto}
+.hrev_talk .teaser .txt strong{margin-bottom:32px;font-size:45px;line-height:50px;color:#fff;font-weight:500}
+.hrev_talk .teaser .txt p{font-size:20px;line-height:40px;color:#fff} 
+@media (max-width: 768px) {
+  .hrev_talk .teaser .txt{padding:28px 0;width:340px;margin:0 auto}
+  .hrev_talk .teaser .txt strong{margin-bottom:15px;font-size:25px;line-height:50px;color:#fff;font-weight:500}
+  .hrev_talk .teaser .txt p{font-size:12px;line-height:25px;color:#fff}
+}
+.hrev_talk .agenda{padding:80px 0}
+.hrev_talk .agenda .inner{position:relative;width:768px;margin:0 auto}
+.hrev_talk .agenda .inner>strong{position:relative;font-weight:bold;font-size:32px;line-height:40px;margin-bottom:32px}
+.hrev_talk .agenda .inner .btn{position:absolute;right:0;top:0;height:40px;line-height:36px}
+@media (max-width: 768px) {
+  .hrev_talk .agenda{padding:30px 0;width:100vw}
+  .hrev_talk .agenda .inner{position:relative;width:100vw;margin:0 auto;padding:0}
+  .hrev_talk .agenda .inner>strong{position:relative;padding:0 15px;font-weight:bold;font-size:5vw;line-height:40px;margin-bottom:20px}
+  .hrev_talk .agenda .inner .btn{position:absolute;margin-right:15px;right:0;top:0;height:40px;line-height:36px}
+}
+.hrev_talk .list_agenda{margin-bottom:120px}
+.hrev_talk .list_agenda li{background-color:rgba(170,170,170,0.1);border-radius:4px;margin-bottom:24px;padding:44px;box-sizing:border-box}
+.hrev_talk .list_agenda .item{overflow:hidden;margin-bottom:24px}
+.hrev_talk .list_agenda .item>em{float:left;width:140px;font-size:24px;line-height:30px;font-weight:bold;color:#0050DC}
+.hrev_talk .list_agenda .item>span{float:left;width:140px;font-size:16px;line-height:30px}
+.hrev_talk .list_agenda .item>strong{overflow:hidden;font-size:24px;line-height:30px;font-weight:bold}
+.hrev_talk .list_agenda .item>p{overflow:hidden;font-size:16px;line-height:30px;}
+.hrev_talk .list_agenda .item_speaker{overflow:hidden;padding-left:140px;margin-top:40px}
+.hrev_talk .list_agenda .item_speaker p{font-size:16px;line-height:24px;opacity:0.8}
+.hrev_talk .list_agenda .item_speaker p b{display:block;margin-bottom:8px;font-weight:700}
+.hrev_talk .list_agenda .item_speaker .wrap_thumb{float:left;width:130px;margin-right:16px}
+.hrev_talk .list_agenda li:nth-child(3) .wrap_thumb{width:80px}
+@media (max-width: 768px) {
+  .hrev_talk .list_agenda{margin-bottom:10vw}
+  .hrev_talk .list_agenda li{background-color:rgba(170,170,170,0.1);border-radius:0px;margin-bottom:2.5vw;padding:2.5vw;box-sizing:border-box}
+  .hrev_talk .list_agenda .item{overflow:hidden;margin-bottom:4vw}
+  .hrev_talk .list_agenda .item>em{float:left;width:24vw;font-size:4vw;line-height:6.5vw;font-weight:bold;color:#0050DC}
+  .hrev_talk .list_agenda .item>span{float:left;width:24vw;font-size:3.5vw;line-height:6vw}
+  .hrev_talk .list_agenda .item>strong{overflow:hidden;font-size:4vw;line-height:6vw;font-weight:bold}
+  .hrev_talk .list_agenda .item>p{overflow:hidden;font-size:3.2vw;line-height:6vw;}
+  .hrev_talk .list_agenda .item_speaker{overflow:hidden;padding-left:0px;margin-top:5vw}
+  .hrev_talk .list_agenda .item_speaker p{font-size:3.5vw;line-height:6vw;opacity:0.8}
+  .hrev_talk .list_agenda .item_speaker p b{display:block;margin-bottom:0vw;font-weight:700}
+  .hrev_talk .list_agenda .item_speaker .wrap_thumb{float:left;width:20vw;margin-right:5vw;margin-bottom:15vw;}
+  .hrev_talk .list_agenda li:nth-child(3) .wrap_thumb{width:26vw;margin-bottom:3vw;}
+}
+.hrev_talk .list_attend{border:1px solid #ccc;border-radius:4px;padding:48px}
+.hrev_talk .list_attend li{font-size:20px;font-weight:bold;padding-left:16px;position:relative}
+.hrev_talk .list_attend li:before{position:absolute;width:4px;height:4px;border-radius:2px;background-color:#111;left:0;top:8px;content:''}
+.hrev_talk .list_attend li+li{margin-top:16px}
+@media (max-width: 768px) {
+  .hrev_talk .list_attend{border:1px solid #ccc;border-radius:4px;padding:8vw}
+  .hrev_talk .list_attend li{font-size:3.5vw;font-weight:bold;padding-left:4vw;position:relative}
+  .hrev_talk .list_attend li:before{position:absolute;width:0.8vw;height:0.8vw;border-radius:0.5vw;background-color:#111;left:0;top:2vw;content:''}
+  .hrev_talk .list_attend li+li{margin-top:2vw}
+}
+.hrev_talk .banner{height:400px;box-sizing:border-box;overflow:hidden}
+.hrev_talk .banner .inner{width:768px;margin:0 auto;position:relative;padding-top:48px}
+.hrev_talk .banner em{display:block;font-size:24px;line-height:30px;color:#fff;margin-bottom:32px}
+.hrev_talk .banner strong{font-size:32px;line-height:40px;font-weight:700;color:#fff;margin-bottom:16px}
+.hrev_talk .banner p{font-size:16px;line-height:30px;color:#fff;margin-bottom:16px}
+.hrev_talk .banner span{font-weight:bold;font-size:16px;line-height:30px;color:#fff}
+.hrev_talk .banner img{width:280px;position:absolute;right:0;top:60px}
+.hrev_talk .banner .btn{margin-top:24px}
+.hrev_talk .banner.event1{background-color:#0050DC}
+.hrev_talk .banner.event1 .btn{background-color:#fff;border-color:#222;color:#222}
+.hrev_talk .banner.event2{background-color:#F0F4FF}
+.hrev_talk .banner.event2 .btn{background-color:#fff;border-color:#222;color:#222}
+.hrev_talk .banner.event2 em,.hrev_talk .banner.event2 strong,.hrev_talk .banner.event2 p,.hrev_talk .banner.event2 span{color:#000} 
+.hrev_talk .banner.event2 img{width:520px;right:-130px;top:30px}
+.hrev_talk .banner.event3{background-color:#2C353C}
+@media (max-width: 768px) {
+  .hrev_talk .banner{height:58vw;width:100vw;box-sizing:border-box;overflow:hidden;padding:3vw;}
+  .hrev_talk .banner .inner{width:90vw;margin:0 auto;position:relative;padding-top:5vw}
+  .hrev_talk .banner em{display:block;font-size:5vw;line-height:6vw;color:#fff;margin-bottom:10px}
+  .hrev_talk .banner strong{font-size:6vw;line-height:6vw;font-weight:700;color:#fff;margin-bottom:20px}
+  .hrev_talk .banner p{font-size:2.5vw;line-height:4vw;color:#fff;margin-bottom:10px}
+  .hrev_talk .banner span{font-weight:bold;font-size:3vw;line-height:6vw;color:#fff}
+  .hrev_talk .banner img{width:0px;position:absolute;right:0;top:60px}
+  .hrev_talk .banner .btn{margin-top:10px}
+  .hrev_talk .banner.event1{background-color:#0050DC;}
+  .hrev_talk .banner.event1 .btn{background-color:#fff;border-color:#222;color:#222}
+  .hrev_talk .banner.event2{background-color:#F0F4FF}
+  .hrev_talk .banner.event2 .btn{background-color:#fff;border-color:#222;color:#222}
+  .hrev_talk .banner.event2 em,.hrev_talk .banner.event2 strong,.hrev_talk .banner.event2 p,.hrev_talk .banner.event2 span{color:#000} 
+  .hrev_talk .banner.event2 img{width:0px;right:-130px;top:30px}
+  .hrev_talk .banner.event3{background-color:#2C353C}
+}
+.hrev_talk .form_area{background-color:#000;padding:120px 0}
+.hrev_talk .form_area .inner{width:520px;position:relative}
+.hrev_talk .form_area .inner>strong{margin-bottom:24px;font-size:24px;line-height:38px;color:#fff}
+.hrev_talk .form_area .inner>strong img{vertical-align:top;margin-right:24px;width:180px;display:inline-block;}
+.hrev_talk .form_area .inner>h4{font-weight:700;color:#fff;font-size:48px;line-height:64px;color:#fff;padding-bottom:16px;border-bottom:1px solid #ccc;margin-bottom:16px}
+.hrev_talk .form_area .inner>p{display:inline-block;margin:0 auto 24px;font-size:24px;font-weight:500;position:relative;color:#fff;vertical-align:top;padding-right:16px}
+.hrev_talk .form_area .inner>p:after{position:absolute;right:0;top:4px;width:6px;height:6px;border-radius:3px;background-color:red;content:''}
+.form_area form>div{display:inline-block;position:relative;width:252px;vertical-align:top;margin-bottom:24px}
+.form_area form>div.hs-email,.form_area form>div.hs_referral_code,.form_area .hs-submit{display:block;width:100%;margin-right:0}
+.form_area form>div.hs-lastname,.form_area form>div.hs-company{margin-right:16px}
+.form_area form>div.hs-check,.form_area form>div.hs-checkbox{display:block;width:100%;margin-right:0;position:Relative;margin-bottom:4px}
+@media (max-width: 768px) {
+  .hrev_talk .form_area{background-color:#000;width:100vw;padding:10vw 0}
+  .hrev_talk .form_area .inner{width:100vw;padding:3vw;position:relative}
+  .hrev_talk .form_area .inner>strong{margin-bottom:0vw;font-size:5.5vw;line-height:7vw;color:#fff}
+  .hrev_talk .form_area .inner>strong img{vertical-align:top;margin-right:5vw;width:30vw;display:inline-block;}
+  .hrev_talk .form_area .inner>h4{width:90vw;font-weight:700;color:#fff;font-size:10vw;line-height:15vw;color:#fff;padding-bottom:4vw;border-bottom:1px solid #ccc;margin-bottom:4vw}
+  .hrev_talk .form_area .inner>p{display:inline-block;margin:0 auto 8vw;font-size:5vw;font-weight:500;position:relative;color:#fff;vertical-align:top;padding-right:2vw}
+  .hrev_talk .form_area .inner>p:after{position:absolute;right:0;top:4px;width:6px;height:6px;border-radius:3px;background-color:red;content:''}
+  .form_area form>div{display:inline-block;position:relative;width:95vw;vertical-align:top;margin-bottom:24px}
+  .form_area form>div.hs-email,.form_area form>div.hs_referral_code,.form_area .hs-submit{display:block;width:90vw;margin-right:0}
+  .form_area form>div.hs-lastname,.form_area form>div.hs-company{margin-right:16px}
+  .form_area form>div.hs-check,.form_area form>div.hs-checkbox{display:block;width:70vw;margin-right:0;position:Relative;margin-bottom:4px}
+}
+.form_area .hs-form-booleancheckbox label{cursor:pointer}
+.form_area .hs-form-booleancheckbox label span{display:inline-block;vertical-align:top;padding-left:8px;font-size:14px;line-height:20px;color:#fff}
+.form_area form input[type="text"],.form_area form input[type="email"],.form_area form input[type="tel"],.form_area form select{display:block;width:100%;border:1px solid #fff;background-color:#000;border-radius:4px;box-sizing:border-box;font-size:16px;line-height:48px;height:48px;padding:0 10px;color:#fff;font-weight:bold }
+.form_area .hs-error-msg{position:absolute;left:0;right:0;bottom:-20px;font-size:12px;line-height:20px;color:#ff4800}
+.form_area .hs-form-required{display:none}
+.form_area .cookie-reset-container{display:none}
+.form_area input[type="checkbox"]{display:inline-block;vertical-align:top;margin-top:4px}
+.form_area input[type="submit"]{display:block;width:100%;height:48px;font-size:16px;font-weight:bold;line-height:48px;margin-top:32px;border-radius:4px;background-color:#007AFF;text-align:center;box-sizing:border-box;border:0;color:#fff;cursor:pointer}
+.form_area .links a {
+    font-size: 14px;
+    line-height: 20px;
+    text-decoration: underline;
+    color: #888;
+    margin: 6px 0;
+  display: block;
+}
+
+.form_area .links {
+    position: absolute;
+    right: 11px;
+    bottom: 78px;
+}
+@media (max-width: 768px) {
+  .form_area .hs-form-booleancheckbox label{cursor:pointer}
+  .form_area .hs-form-booleancheckbox label span{display:inline-block;vertical-align:top;padding-left:8px;font-size:14px;line-height:20px;color:#fff}
+  .form_area form input[type="text"],.form_area form input[type="email"],.form_area form input[type="tel"],.form_area form select{display:block;width:90vw;border:1px solid #fff;background-color:#000;border-radius:4px;box-sizing:border-box;font-size:16px;line-height:48px;height:48px;padding:0 10px;color:#fff;font-weight:bold }
+  .form_area .hs-error-msg{position:absolute;left:0;right:0;bottom:-20px;font-size:12px;line-height:20px;color:#ff4800}
+  .form_area .hs-form-required{display:none}
+  .form_area .cookie-reset-container{display:none}
+  .form_area input[type="checkbox"]{display:inline-block;vertical-align:top;margin-top:4px}
+  .form_area input[type="submit"]{display:block;width:100%;height:48px;font-size:16px;font-weight:bold;line-height:48px;margin-top:32px;border-radius:4px;background-color:#007AFF;text-align:center;box-sizing:border-box;border:0;color:#fff;cursor:pointer}
+  .form_area .links a {
+      font-size: 14px;
+      line-height: 20px;
+      text-decoration: underline;
+      color: #888;
+      margin: 6px 0;
+    display: block;
+  }
+
+  .form_area .links {
+      position: absolute;
+      right: 8%;
+      bottom: 12.5%;
+  }
+}
+
+.form_area .submitted-message p strong {font-size: 22px;color: #fff;margin-bottom: 24px;font-weight: 900;}
+.form_area .submitted-message p {font-size: 16px;color: #fff;line-height:30px}
+.form_area .submitted-message p a{color:#3395FF;text-decoration:underline}
+.form_area .submitted-message p em{    width: 100px;
+    height: 100px;
+    background-color: #000;
+    position: Absolute;
+    right: 0;
+    bottom: 40px;
+    z-index: 100;}
+@media (max-width: 768px) {
+  .form_area .submitted-message p strong {font-size: 22px;color: #fff;margin-bottom: 24px;font-weight: 900;}
+  .form_area .submitted-message p {font-size: 16px;color: #fff;line-height:30px}
+  .form_area .submitted-message p a{color:#3395FF;text-decoration:underline}
+  .form_area .submitted-message p em{width: 0px;
+      height: 100px;
+      background-color: #000;
+      position: Absolute;
+      right: 0;
+      bottom: 40px;
+      z-index: 100;}
+}
+.popup_account{position:fixed;z-index:100;left:50%;top:50%;width:700px;height:500px;background-color:#fff;margin:-250px 0 0 -350px;box-sizing:border-box;padding:40px;-webkit-box-shadow: 16px 16px 30px 0px rgba(0,0,0,0.15);
+-moz-box-shadow: 16px 16px 30px 0px rgba(0,0,0,0.15);
+box-shadow: 16px 16px 30px 0px rgba(0,0,0,0.15)}
+.popup_account .btn_close{position:absolute;right:-20px}
+.popup_account strong{font-size:20px;line-height:40px;font-weight:bold}
+.popup_account b{font-weight:bold;display:block;font-size:16px}
+.popup_account .box{display:none;font-size:14px;line-height:20px}
+.popup_account .btn_close{position:absolute;right:24px;top:24px;transition:0.5s}
+.popup_account .btn_close:hover{transform:rotateZ(180deg)}
+.popup_account .btn_close i{font-size:20px}
+#footer .footer_top .tel_area p strong{display:inline;color:#fff}
+@media (max-width: 768px) {
+  .popup_account{position:absolute;right:0%;bottom:0%;width:100vw;height:500px;background-color:#fff;margin:-46% 0 0 -55%;box-sizing:border-box;padding:40px;-webkit-box-shadow: 16px 16px 30px 0px rgba(0,0,0,0.15);
+  -moz-box-shadow: 16px 16px 30px 0px rgba(0,0,0,0.15);
+  box-shadow: 16px 16px 30px 0px rgba(0,0,0,0.15)}
+  .popup_account .btn_close{position:absolute;right:-20px}
+  .popup_account strong{font-size:20px;line-height:40px;font-weight:bold}
+  .popup_account b{font-weight:bold;display:block;font-size:16px}
+  .popup_account .box{display:none;font-size:14px;line-height:20px}
+  .popup_account .btn_close{position:absolute;right:24px;top:24px;transition:0.5s}
+  .popup_account .btn_close:hover{transform:rotateZ(180deg)}
+  .popup_account .btn_close i{font-size:20px}
+  #footer .footer_top .tel_area p strong{display:inline;color:#fff}
+}

@@ -1,180 +1,166 @@
-@charset "utf-8";
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap');
-html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,
+@charset "utf-8";@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400; 500; 700&display=swap');html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,
 b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font: inherit;
-	vertical-align: baseline;
-  font-weight:500;
-/*   color:#17181A; */
-  letter-spacing:-1px
-}
-img{display:block;width:100%}
+time, mark, audio, video {margin: 0;padding: 0;border: 0;font: inherit;vertical-align: baseline; font-weight:500;/* color:#17181A; */
+ letter-spacing:-1px}
+img { display:block; width:100% } 
 
-#wrap {overflow:hidden;background-color:#000}
+#wrap { overflow:hidden; background-color:#000 } 
 
 /* hrevtalks 공통 */
-.brin {display:block}
-.inbr {display:inline}
-.hrevtalks * {font-family:'Pretendard','Noto Sans Kr', sans-serif;font-size:17px;font-weight:400;color:#d6d6d6;line-height:24px;letter-spacing:0}
-.hrevtalks a {display:block}
-.hrevtalks strong {display:block;font-weight:bold}
-.hrevtalks em {text-decoration:none}
-.hrevtalks .inner {width:1312px;max-width:none;margin:0 auto;padding:0 !important}
-.hrevtalks div[class^="sect_"] {padding-top:120px}
-.hrevtalks div[class^="sect_"] .txts em {display:block;font-size:28px;font-weight:500;line-height:40px;color:#4CC1BE}
-.hrevtalks div[class^="sect_"] .txts strong {margin-bottom:12px;font-size:40px;color:#fff;line-height:56px}
-.hrevtalks div[class^="sect_"] .txts p {margin-bottom:42px}
+.brin { display:block } 
+.inbr { display:inline } 
+.hrevtalks * { font-family:'Pretendard','Noto Sans Kr', sans-serif; font-size:17px; font-weight:400; color:#d6d6d6; line-height:25px; letter-spacing:0 } 
+.hrevtalks a { display:block } 
+.hrevtalks strong { display:block; font-weight:bold } 
+.hrevtalks em { text-decoration:none } 
+.hrevtalks .inner { width:1312px; max-width:none; margin:0 auto; padding:0 !important } 
+.hrevtalks div[class^="sect_"] { padding-top:120px } 
+.hrevtalks div[class^="sect_"] .txts em { display:block; font-size:28px; font-weight:500; line-height:40px; color:#4CC1BE } 
+.hrevtalks div[class^="sect_"] .txts strong { margin-bottom:12px; font-size:40px; color:#fff; line-height:56px } 
+.hrevtalks div[class^="sect_"] .txts p { margin: 10px 0 42px 0; } 
 
 
 /* 헤더 */
-#header {transition:.3s}
-.header_hrevtalks {width:100%;position:fixed;top:60px;background-color:rgba(0,0,0,.5);-webkit-backdrop-filter:blur(2px);backdrop-filter:blur(2px);z-index:100;transition:.3s}
-.header_hrevtalks .inner {width:1080px;height:60px}
-.header_hrevtalks h2 {float:left}
-.header_hrevtalks h2 a {height:60px;line-height:60px;font-size:20px;font-weight:500;color:#fff}
-.header_hrevtalks .nav_scroll {float:right}
-.header_hrevtalks .nav_scroll ul {overflow:hidden}
-.header_hrevtalks .nav_scroll ul li {float:left}
-.header_hrevtalks .nav_scroll ul li a {line-height:60px;padding:0 24px;font-weight:500;color:#d6d6d6}
-.header_hrevtalks .nav_scroll ul li:last-child a {padding-right:0;color:#53D7E9}
+#header { transition:.3s } 
+.header_hrevtalks { width:100%; position:fixed; top:60px; background-color:rgba(0,0,0,.5); -webkit-backdrop-filter:blur(2px); backdrop-filter:blur(2px); z-index:100; transition:.3s } 
+.header_hrevtalks .inner { width:1080px; height:60px } 
+.header_hrevtalks h2 { float:left } 
+.header_hrevtalks h2 a { height:60px; line-height:60px; font-size:20px; font-weight:500; color:#fff } 
+.header_hrevtalks .nav_scroll { float:right } 
+.header_hrevtalks .nav_scroll ul { overflow:hidden } 
+.header_hrevtalks .nav_scroll ul li { float:left } 
+.header_hrevtalks .nav_scroll ul li a { line-height:60px; padding:0 24px; font-weight:500; color:#d6d6d6 } 
+.header_hrevtalks .nav_scroll ul li:last-child a { padding-right:0; color:#53D7E9 } 
 
 /* 메인비주얼 */
-.mainvisual { display: flex; flex-direction: row; margin-top:60px;background:url(https://4570750.fs1.hubspotusercontent-na1.net/hubfs/4570750/HREVTALKS/Ep.02/bg_mainvisual.png) center top no-repeat;background-size:cover;transition:.3s}
-.mainvisual .inner { display: flex; height:750px;box-sizing:border-box}
-.mainvisual .txts { margin-right:144px;padding-top:270px;}
-.mainvisual .txts em {display:block;margin-bottom:2px;font-size:20px;font-weight:600;line-height:28px;color:#fff}
-.mainvisual .txts strong {margin-bottom:16px;font-size:64px;line-height:84px;letter-spacing:-2.5px;color:#fff;text-shadow:1px 1px 32px #000}
-.mainvisual .txts span { display: block;}
-.mainvisual .txts a {display:inline-block;width:210px;height:46px;line-height:46px;border-radius:23px;font-size:18px;color:#fff;font-weight:600;text-align:center;background-color:#21BBD0;transition:.3s}
-.mainvisual .txts a:hover {background-color:#28C9C4}
-.mainvisual .visual {overflow:hidden;padding-top:165px}
-.mainvisual .visual img {display:block;width:100%;transform:translateY(120px);opacity:0;transition:1.5s}
-.mainvisual .visual img+img {display:none}
-.mainvisual .visual img.on {transform:translateY(0px);opacity:1}
+.mainvisual { display: flex; flex-direction: row; margin-top:60px; background:url(https://4570750.fs1.hubspotusercontent-na1.net/hubfs/4570750/HREVTALKS/Ep.02/bg_mainvisual.png) center top no-repeat; background-size:cover; transition:.3s } 
+.mainvisual .inner { display: flex; justify-content: space-between; height:750px; box-sizing:border-box } 
+.mainvisual .txts {  padding-top: 188px; } 
+.mainvisual .txts em { display:block; margin-bottom: 75px; font-size:20px; font-weight:600; line-height:28px; color:#fff } 
+.mainvisual .txts em::after { content: ''; display: inline-block; position: relative; left: 10px; top: -20px; width: 12px; height: 12px; background-color: #FF0000; border-radius: 100%; }
+.mainvisual .txts strong { margin-bottom:16px; font-size:55px; line-height:84px; letter-spacing:-2.5px; color:#fff; text-shadow:1px 1px 32px #000 } 
+.mainvisual .txts span { display: block; margin: 20px 0 80px 0; } 
+.mainvisual .txts a { display:inline-block; width:210px; height:46px; line-height:46px; border-radius:23px; font-size:18px; color:#fff; font-weight:600; text-align:center; background-color:#21BBD0; transition:.3s; word-break: keep-all; } 
+.mainvisual .txts a:hover { background-color:#28C9C4 } 
+.mainvisual .visual { overflow:hidden; padding-top:150px } 
+.mainvisual .visual img { display:block; width:100%; transform:translateY(120px); opacity:0; transition:1.5s } 
+.mainvisual .visual img+img { display:none } 
+.mainvisual .visual img.on { transform:translateY(0px); opacity:1 } 
 
 /* 섹션 - about */
-.sect_about { padding-bottom:80px;background: linear-gradient(180deg, #282A34 0%, #0C0B1B 100%);position:relative}
-.sect_about .inner>.txts { display: flex; flex-direction: column; align-items: center; justify-content: center; transform:translateY(60px);opacity:0;transition:.6s}
-.sect_about .inner>.txts p { word-break: keep-all; white-space: pre-wrap; text-align: center; font-weight:500}
-.sect_about .inner>.txts span.importTxt { color: #4190FF;}
-.sect_about .inner>.txts.on {transform:translateY(0);opacity:1}
-.sect_about .explain {width:688px;padding-top:120px;margin:0 auto}
-.sect_about .explain img {float:left;width:166px;margin-right:64px;transform:translateY(60px);opacity:0;transition:.6s}
-.sect_about .explain img.on {transform:translateY(0);opacity:1}
-.sect_about .explain .txts {overflow:hidden;transform:translateY(60px);opacity:0;transition-duration:.6s;transition-delay:.3s}
-.sect_about .explain .txts p { white-space: pre-wrap; }
-.sect_about .explain img.on+.txts {transform:translateY(0);opacity:1}
-.sect_about .explain .txts strong {margin-top:-12px}
-div[class^="sect_"].sect_about .explain .txts p {margin-bottom:0}
-.sect_about .attend {padding-top:120px;text-align:center}
-.sect_about .attend .txts {transform:translateY(60px);opacity:0;transition-duration:.6s;transition-delay:.5s}
-.sect_about .attend .txts.on {transform:translateY(0);opacity:1}
-.sect_about .attend ul {margin-top:32px;font-size:0;transform:translateY(60px);opacity:0;transition-duration:.6s;transition-delay:.7s}
-.sect_about .attend .txts.on + ul {transform:translateY(0);opacity:1; display: flex; justify-content: center; align-items: center; flex-direction:column;}
-.sect_about .attend ul li {display: block; position:relative;}
-.sect_about .attend ul li span em { display: inline-block; width: 35px; height: 77px; margin-right: 15px; background: url(../img/HREVTALKS/EP.04/Checklist.png) center no-repeat; }
-.sect_about .attend ul li span { display: flex; justify-content: center; align-items: center; font-size: 28px;}
-.sect_about .attend ul li span i.importTxt  { margin-left: 5px; color: #4190FF; font-weight: bold;}
-.sect_about .attend ul li+li:before {content:''; position:relative; display: flex; width: 837px;height:1px;background-color:#c4c4c4;opacity:0.2}
-.sect_about .attend ul li span {font-size:16px}
+.sect_about { padding-bottom:80px; position:relative } 
+.sect_about .inner>.txts { display: flex; flex-direction: column; align-items: center; justify-content: center; transform:translateY(60px); opacity:0; transition:.6s } 
+.sect_about .inner>.txts p { word-break: keep-all; white-space: pre-wrap; text-align: center; font-weight:500; line-height: 30px; } 
+.sect_about .inner>.txts span.importTxt { color: #4190FF; } 
+.sect_about .inner>.txts.on { transform:translateY(0); opacity:1 } 
+.sect_about .explain { width:688px; padding-top:80px; margin:0 auto } 
+.sect_about .explain img { float:left; width:166px; margin-right:64px; transform:translateY(60px); opacity:0; transition:.6s } 
+.sect_about .explain img.on { transform:translateY(0); opacity:1 } 
+.sect_about .explain .txts { overflow:hidden; transform:translateY(60px); opacity:0; transition-duration:.6s; transition-delay:.3s } 
+.sect_about .explain .txts p { white-space: pre-wrap; } 
+.sect_about .explain img.on+.txts { transform:translateY(0); opacity:1 } 
+.sect_about .explain .txts strong { margin-top:-12px } 
+div[class^="sect_"].sect_about .explain .txts p { margin-bottom:0 } 
+.sect_about .attend { padding-top:120px; text-align:center } 
+.sect_about .attend .txts { transform:translateY(60px); opacity:0; transition-duration:.5s; transition-delay:.2s } 
+.sect_about .attend .txts.on { transform:translateY(0); opacity:1 } 
+.sect_about .attend ul { margin-top:32px; font-size:0; transform:translateY(60px); opacity:0; transition-duration:.6s; transition-delay:.7s } 
+.sect_about .attend .txts.on + ul { transform:translateY(0); opacity:1; display: flex; justify-content: center; align-items: center; flex-direction:column; } 
+.sect_about .attend ul li { display: block; position:relative; } 
+.sect_about .attend ul li span em { display: inline-block; width: 30px; height: 55px; margin-right: 15px; background: url(https://www.midashri.com/hubfs/HREVTALKS/Ep.04/checklist.png) center no-repeat; background-size: contain; } 
+.sect_about .attend ul li span { display: flex; justify-content: center; align-items: center; height:; font-size: 28px; color: #D6D6D6; } 
+.sect_about .attend ul li span i.importTxt { margin-left: 5px; color: #4190FF; font-weight: bold; font-size: 22px; } 
+.sect_about .attend ul li+li:before { content:''; position:relative; display: flex; width: 837px; height:1px; background-color:#c4c4c4; opacity:0.2 } 
+.sect_about .attend ul li span { font-size:22px } 
+.sect_form .txts span::after { content: ''; display: inline-block; position: relative; left: 7px; top: -12px; width: 12px; height: 12px; background-color: #FF0000; border-radius: 100%; }
 
 /* 말풍선 */
-.hrevtalks div.history_about { padding-top: 0 !important; }
-.historyInner { position: relative; width: 1312px; height: 1047px; background: url(../img/HREVTALKS/EP.04/Group\ 481681.png) center  no-repeat; background-size: contain; border: 2px solid red; }
-.circle {
-  border-radius: 50%;
-  width: 235px;
-  height: 235px;
-  position: relative;
-  border: 8px solid #fff;
-  transform: scale(1);
-  transition: transform 0.3s;
- /***Flip card section***/
-}
-/* .circle::after {
-  border-top: 34px solid #fff;
-  border-left: 15px solid transparent;
-  border-right: 15px solid transparent;
-  border-bottom: 0px solid transparent;
-  content: "";
-  position: absolute;
-  top: 220px;
-  left: 100px;
-} */
- .circle__row {
-	 display: flex;
-	 flex-wrap: wrap;
-	 justify-content: space-around;
-	 align-items: center;
-}
- .circle--text {
-	 display: flex;
-	  
-	 border-radius: 50%;
-	 background-color: rgba(0, 0, 0, 0.6);
-	 color: white;
-   flex-direction: column;
-	 text-align: center;
-	 justify-content: center;
-	 align-items: center;
-	 position: absolute;
-	 width: 100%;
-	 height: 100%;
-	 top: 0;
-	 padding: 10px;
-	 transition: opacity 0.5s;
-}
- .circle--btn {
-	 display: block;
-}
- .circle:hover {
-	 transform: scale(1.3);
-	 transition: transform 0.1s;
-	 border-top-color: #4190FF;
-	 border-left-color: #4190FF;
-	 border-bottom-color: #4190FF;
-	 border-right-color: #4190FF;
-	 transition: transform 0.2s, border-top-color 0.18s linear, border-left-color 0.18s linear 0.1s, border-bottom-color 0.18s linear 0.2s, border-right-color 0.18s linear 0.15s;
-}
- .circle:hover .circle--text {
-	 opacity: 1;
-}
- 
-.circle__row a.circle:first-child { position: absolute; display: inline-block; top: 100px; left: 160px; }
-.circle__row a.circle:nth-child(2) { position: absolute; display: inline-block; top: 645px; left: 500px; }
-.circle__row a.circle:nth-child(3) { position: absolute; display: inline-block;     top: 100px;
-  left: 820px }
+.hrevtalks div.history_about { padding-top: 0 !important; } 
+.historyInner { position: relative; width: 1312px; height: 845px; background: url(https://www.midashri.com/hubfs/HREVTALKS/Ep.04/Group%20481682-2.png) center no-repeat; background-size: contain; margin-bottom: 70px; } 
+.circle { border-radius: 50%; width: 235px; height: 235px; position: relative; border: 8px solid #D9D9D9; transform: scale(1); transition: transform 0.3s; /***Flip card section***/}
+.circle:nth-child(odd)::after { width: 32px; height: 36px; background: url(https://www.midashri.com/hubfs/HREVTALKS/Ep.04/eptalk_gray.svg) center no-repeat; content: ""; position: absolute; top: 225px; left: 95px; } 
+
+
+.circle:nth-child(even)::after { content: ""; position: absolute; top: -40px; left: 95px; width: 32px; transform: scaleY(-1); height: 36px; background: url(https://www.midashri.com/hubfs/HREVTALKS/Ep.04/eptalk_gray.svg) center no-repeat; } 
+
+.circle:hover:nth-child(odd)::after {content: ""; position: absolute; width: 32px; height: 36px; background: url(https://www.midashri.com/hubfs/HREVTALKS/Ep.04/eptalk_blue.svg) center no-repeat; top: 225px; left: 95px; } 
+.circle:hover:nth-child(even)::after { content: ""; position: absolute; top: -40px; left: 95px; width: 32px; height: 36px; transform: scaleY(-1); background: url(https://www.midashri.com/hubfs/HREVTALKS/Ep.04/eptalk_blue.svg) center no-repeat; } 
+
+
+.circle__row { display: flex; flex-wrap: wrap; justify-content: space-around; align-items: center; } 
+.circle--text { display: flex; border-radius: 50%; background-color: rgba(0, 0, 0, 0.6); color: white; flex-direction: column; text-align: center; justify-content: center; align-items: center; position: absolute; width: 100%; height: 100%; top: 0; padding: 10px; line-height: 30px; font-size: 16px; transition: opacity 0.5s; } 
+.circle--text em { font-size: 16px !important; font-weight: bold !important; color: #fff !important; line-height: 30px; } 
+.circle--btn { display: block; } 
+.circle__row span { position: absolute; } 
+.circle:hover { transition: transform 0.1s; border-color: #4190FF; } 
+
+
+.circle__row .circle:hover { transform: scale(1.5, 1.5); } 
+.circle { transform-origin: bottom center; } 
+
+.circleBottom { transform-origin: top center; } 
+
+.circle:hover .circle--text { opacity: 1; } 
+.circle__row a.circle:first-child { position: absolute; display: inline-block; top:60px; left: 160px; } 
+.circle__row a.circle:nth-child(2) { position: absolute; display: inline-block; top: 527px; left: 431px; } 
+.circle__row a.circle:nth-child(3) { position: absolute; display: inline-block; top:60px; left: 701px; } 
+
+.cookie-reset-container { display: none; }
+/* 섹션 - faq */
+.faqInner { padding: 45px 0 162px 0; } 
+.faqTitle span { display: block; font-size: 40px; font-weight: bold; margin-bottom: 33px; } 
+.faqInner ul li { margin-bottom: 44px; } 
+.faqInner ul li span { display: block; font-weight: bold; font-size: 20px; line-height: 35px; } 
+.faqInner ul li em { display: block; font-size: 18px; line-height: 35px; white-space: pre-wrap; } 
+.faqInner ul li i.importTxt { font-style: normal; font-size: 18px; line-height: 35px; color: #4190FF; } 
+
+/*------------------*/
+/* Layout (No Edit) */
+/*------------------*/
+@media(max-width:770px){
+ .card { min-width: 170px; } 
+ .card .box,
+ .card .box .fill { width: 85px; height: 85px; } 
+ .card p { margin: 20px 0 0; } 
+ }
+@media(max-width:600px) { body { padding-top: 40px; } 
+ .card { margin: 10px 5px; padding: 12px 5px; min-width: 130px; font-size: 11px; } 
+ }
+@media(max-width:455px) { body { padding-top: 0; } 
+ }
+@media(max-width:300px) { body { padding: 20px 7.5px; } 
+ .card { margin: 10px; padding: 15px; min-width: 160px; font-size: 13px; } 
+ .card .box,
+ .card .box .fill { width: 80px; height: 80px; } 
+ }
+
 
 /* 섹션 - agenda */
-.bg_group {background:linear-gradient(180deg, #101114 0%, #0B1E28 100%)}
-.sect_agenda .inner>strong {margin-bottom:24px;font-size:40px;font-weight:500;line-height:56px;color:#4CC1BE}
-.sect_agenda .agenda_slider {display:block;overflow:visible}
+.bg_group {  background: linear-gradient(180deg, #282A34 0%, #0C0B1B 21.88%, #101114 44.27%, #0B1E28 68.75%, #0A1D27 100%);; } 
+.sect_agenda .inner>strong { margin-bottom:24px; font-size:40px; font-weight:500; line-height:56px; color:#4CC1BE } 
+.sect_agenda .agenda_slider { display:block; overflow:visible } 
 
-.sect_agenda .agenda_slider.mobile {display:none}
-.sect_agenda .swiper-slide {width:640px;height:384px;padding:40px 30px;border-radius:8px;background-color:#20212F;position:relative;cursor:grab}
-.sect_agenda .swiper-slide em {display:inline-block;vertical-align:top; padding:0 24px;color:#fff;font-size:16px;line-height:30px;border:1px solid #fff;border-radius:15px}
-.sect_agenda .swiper-slide ul {position:absolute;left:40px;bottom:40px;overflow:hidden}
-.sect_agenda .swiper-slide ul li {float:left}
-.sect_agenda .swiper-slide ul li+li {margin-left:30px}
-.sect_agenda .swiper-slide ul li img {float:left;width:72px;margin-right:10px}
-.sect_agenda .swiper-slide ul li dl {float:left}
-.sect_agenda .swiper-slide ul li dl>* {font-size:14px;line-height:21px}
-.sect_agenda .swiper-slide ul li dl>dt {margin:15px 0 4px;font-weight:500;color:#fff}
+.sect_agenda .agenda_slider.mobile { display:none } 
+.sect_agenda .swiper-slide { width:640px; height:384px; padding:40px 30px; border-radius:8px; background-color:#20212F; position:relative; cursor:grab } 
+.sect_agenda .swiper-slide em { display:inline-block; vertical-align:top; padding:0 24px; color:#fff; font-size:16px; line-height:30px; border:1px solid #fff; border-radius:15px } 
+.sect_agenda .swiper-slide ul { position:absolute; left:40px; bottom:40px; overflow:hidden } 
+.sect_agenda .swiper-slide ul li { float:left } 
+.sect_agenda .swiper-slide ul li+li { margin-left:30px } 
+.sect_agenda .swiper-slide ul li img { float:left; width:72px; margin-right:10px } 
+.sect_agenda .swiper-slide ul li dl { float:left } 
+.sect_agenda .swiper-slide ul li dl>* { font-size:14px; line-height:21px } 
+.sect_agenda .swiper-slide ul li dl>dt { margin:15px 0 4px; font-weight:500; color:#fff } 
 
-.topSlideText { display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px; }
-.sect_agenda .swiper-slide { font-size:28px;font-weight:600;color:#fff; position:relative}
-.sect_agenda .swiper-slide span {display:inline-block;vertical-align:top; font-size:18px;color:#64D0DF;font-weight:normal}
-.sect_agenda .swiper-slide span i {vertical-align:top;margin-right:4px;color:#64D0DF}
-.swiper-txtDesign strong { font-size: 28px; margin-bottom: 12px; }
-.swiper-txtDesign p { white-space: pre-wrap; }
+.topSlideText { display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px; } 
+.sect_agenda .swiper-slide { font-size:28px; font-weight:600; color:#fff; position:relative } 
+.sect_agenda .swiper-slide span { display:inline-block; vertical-align:top; font-size:18px; color:#64D0DF; font-weight:normal } 
+.sect_agenda .swiper-slide span i { vertical-align:top; margin-right:4px; color:#64D0DF } 
+.swiper-txtDesign strong { font-size: 28px; margin-bottom: 12px; } 
+.swiper-txtDesign p { white-space: pre-wrap; } 
 
 .sect_agenda .agenda_slider:before {content:'';position:absolute;top:0;bottom:0;left:1312px;width:calc((100vw - 1312px)/2);
 /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#101216+0,101216+100&0.57+0,1+100 */
@@ -193,307 +179,309 @@ background: linear-gradient(to right,  rgba(16,18,22,1) 0%,rgba(16,18,22,0) 100%
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#101216', endColorstr='#91101216',GradientType=1 ); /* IE6-9 */
 z-index:1
 }
-.swiper-button-next:after, .swiper-button-prev:after {z-index:100}
-.sect_agenda .swiper-button-prev.btn_prev {height:100%;width:128px;top:0;left:-128px;right:auto;margin-top:0;}
-.sect_agenda .swiper-button-next.btn_next {height:100%;width:128px;top:0;left:auto;right:-128px;margin-top:0;}
-.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {font-family:'xeicon';content:"\e93c"}
-.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {font-family:'xeicon';content:"\e93f"}
-.swiper-button-next.btn_next.swiper-button-disabled, .swiper-button-prev.btn_prev.swiper-button-disabled {opacity:1;color:#828282}
+.swiper-button-next:after, .swiper-button-prev:after { z-index:100 } 
+.sect_agenda .swiper-button-prev.btn_prev { height:100%; width:128px; top:0; left:-128px; right:auto; margin-top:0; } 
+.sect_agenda .swiper-button-next.btn_next { height:100%; width:128px; top:0; left:auto; right:-128px; margin-top:0; } 
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after { font-family:'xeicon'; content:"\e93c" } 
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after { font-family:'xeicon'; content:"\e93f" } 
+.swiper-button-next.btn_next.swiper-button-disabled, .swiper-button-prev.btn_prev.swiper-button-disabled { opacity:1; color:#828282 } 
 .swiper-horizontal>.swiper-pagination-bullets,
 .swiper-pagination-bullets.swiper-pagination-horizontal,
-.swiper-pagination-custom, .swiper-pagination-fraction {width:auto;height:14px;bottom:-32px}
+.swiper-pagination-custom, .swiper-pagination-fraction { width:auto; height:14px; bottom:-32px } 
 .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
-.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {display:inline-block;vertical-align:top;height:14px;width:14px;background-color:#4A4A4A;cursor:pointer}
-.swiper-pagination-bullet.swiper-pagination-bullet-active {background-color:#70D7E0 !important}
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet { display:inline-block; vertical-align:top; height:14px; width:14px; background-color:#4A4A4A; cursor:pointer } 
+.swiper-pagination-bullet.swiper-pagination-bullet-active { background-color:#70D7E0 !important } 
 
 
 /* 섹션 - event */
-.sect_event {overflow:hidden}
-.sect_event .inner {overflow:hidden}
-.sect_event .inner>strong {margin-bottom:24px;font-size:40px;line-height:56px;color:#4CC1BE;font-weight:normal}
-.sect_event div[class^="event"] { 
-  height:289px;
-  padding:32px 0 0 110px;
-  background:url(https://4570750.fs1.hubspotusercontent-na1.net/hubfs/4570750/HREVTALKS/Ep.02/img_event2.png) right bottom no-repeat;
-  background-color:#fff;background-size: 242px auto;border-radius:8px;position:relative;opacity:0;transform:translateY(60px);transition-duration:.6s
-}
-.sect_event div[class^="event"].event2 {
-  margin:23px 0; 
-  height:210px;
-  background-image:url(https://4570750.fs1.hubspotusercontent-na1.net/hubfs/4570750/HREVTALKS/Ep.02/img_event1.png);
-  background-position:right 125px;
-  background-color:#fff;
-  background-size:260px auto;
-  transition-delay:.2s;
-}
-.sect_event div[class^="event"].event3 {
-  height:203px;
-  background-image:url(https://4570750.fs1.hubspotusercontent-na1.net/hubfs/4570750/HREVTALKS/Ep.02/img_event3.png);
-  background-size:100% auto;
-  background-position:right 192px;transition-delay:.4s;
-}
-.sect_event.on div[class^="event"] {opacity:1;transform:translateY(0)}
+.sect_event { overflow:hidden } 
+.sect_event .inner { overflow:hidden } 
+.sect_event .inner>strong { margin-bottom:24px; font-size:40px; line-height:56px; color:#4CC1BE; font-weight:normal } 
+.sect_event div[class^="event"] { height:289px; display: flex; flex-direction: column; justify-content: center; padding:0 0 0 110px; background:url(https://www.midashri.com/hubfs/HREVTALKS/Ep.04/event-1-3.png) right bottom no-repeat; background-color:#fff; background-size: 242px auto; border-radius:8px; position:relative; opacity:0; transform:translateY(60px); transition-duration:.6s}
+.sect_event div[class^="event"].event1 { height:289px; display: flex; flex-direction: column; justify-content: center; padding: 0 0 0 110px; background:url(https://www.midashri.com/hubfs/HREVTALKS/Ep.04/event-1-3.png) right bottom no-repeat; background-color:#fff; background-size: 242px auto; border-radius:8px; position:relative; opacity:0; transform:translateY(60px); transition-duration:.6s}
+.sect_event div[class^="event"].event2 { margin:23px 0; height:210px; background-image:url(https://www.midashri.com/hubfs/HREVTALKS/Ep.04/event-2-1.png); background-position:right -8px; background-color:#fff; background-size:225px auto; transition-delay:.2s; } 
+.sect_event div[class^="event"].event3 { height:203px; background-image:url(https://www.midashri.com/hubfs/HREVTALKS/Ep.04/event-3-2.png); background-size: 270px auto; background-position:right 38px; transition-delay:.4s; } 
+.sect_event.on div[class^="event"] { opacity:1; transform:translateY(0) } 
 
-.sect_event div[class^="event"] strong {margin-bottom:8px;font-size:28px;color:#4190FF;line-height:42px}
-.sect_event div[class^="event"] p {color:#4e4e4e}
-.sect_event div[class^="event"] img {position:absolute;left:0;bottom:0}
-.sect_event div[class^="event"].event1 {padding:0}
-.sect_event .event1 a {height:100%;padding:32px 0 0 110px}
-.sect_event .event1 span {display:inline-block;vertical-align:top;margin-top:68px;font-size:16px;font-weight:500;color:#000;line-height:28px;position:relative;transition:.3s}
-.sect_event .event1 span:after {content:'';position:absolute;left:0;bottom:4px;width:115px;height:1px;background-color:#000;opacity:0;transition:.3s}
-.sect_event .event1 span em {display:inline-block;vertical-align:top;width:28px;height:28px;margin-left:8px;border-radius:50%;background-color:#5CDBD7;position:relative;transition:.3s}
-.sect_event .event1 em img {position:absolute;left:50%;top:45%;transform:translate(-50%,-50%);width:19px;height:13px}
-.sect_event .event1 a:hover span:after {opacity:1}
-.sect_event .event1 a:hover em {background-color:#28C9C4}
+.sect_event div[class^="event"] strong { margin-bottom: 20px; font-size:35px; color:#4190FF; line-height:42px } 
+.sect_event div[class^="event"] p { color:#4e4e4e } 
+.sect_event div[class^="event"] img { position:absolute; left:0; bottom:0 } 
+.sect_event .event1 span { display:inline-block; vertical-align:top; margin-top:68px; font-size:16px; font-weight:500; color:#000; line-height:28px; position:relative; transition:.3s } 
+.sect_event .event1 span:after { content:''; position:absolute; left:0; bottom:4px; width:115px; height:1px; background-color:#000; opacity:0; transition:.3s } 
+.sect_event .event1 span em { display:inline-block; vertical-align:top; width:28px; height:28px; margin-left:8px; border-radius:50%; background-color:#5CDBD7; position:relative; transition:.3s } 
+.sect_event .event1 em img { position:absolute; left:50%; top:45%; transform:translate(-50%,-50%); width:19px; height:13px } 
+.sect_event .event1 strong { display: flex; align-items: center; } 
+.sect_event .event1 strong a { display: inline-block; margin-left: 15px; width: 141px; height: 42px; border: 8px 18px; background-color: #4190FF; border-radius: 8px; text-align: center; line-height: 42px; color: #fff; font-weight: bold; } 
+.sect_event .event3 .links { position:absolute; left:120px; top:500px } 
+.sect_event .event3 .links a { display:inline-block; vertical-align:top; font-size:16px; color:#f3f3f3 } 
+.sect_event .event3 .links a.nonlink { display:block; cursor:text } 
+.sect_event .event3 .links a i { vertical-align:top; margin-right:8px } 
+.sect_event .event3 .links a span { display:inline-block; vertical-align:top; margin-left:17px; position:relative } 
+.sect_event .event3 .links a span:before { content:''; position:absolute; left:-8px; top:4px; width:1px; height:16px; background-color:#fcfbfb; opacity:.2 } 
 
-.sect_event .event3 .links {position:absolute;left:120px;top:500px}
-.sect_event .event3 .links a {display:inline-block;vertical-align:top;font-size:16px;color:#f3f3f3}
-.sect_event .event3 .links a.nonlink {display:block;cursor:text}
-.sect_event .event3 .links a i {vertical-align:top;margin-right:8px}
-.sect_event .event3 .links a span {display:inline-block;vertical-align:top;margin-left:17px;position:relative}
-.sect_event .event3 .links a span:before {content:'';position:absolute;left:-8px;top:4px;width:1px;height:16px;background-color:#fcfbfb;opacity:.2}
+.event1 p { margin-bottom: 10px; } 
+.event1 p:last-child { margin-bottom: 0px; } 
 
-.wrap_event p { white-space: pre-wrap; font-size: 22px;}
-.wrap_event .numDesign { position: absolute; background-color: #4190FF; z-index: 9; width: 43px; height: 748px; margin-left: 30px;  }
-.wrap_event .numDesign li { padding: 40px 10px;}
-.wrap_event .numDesign li span { display: block; font-size: 28px; font-weight: bold; text-align: right; }
-.wrap_event .numDesign li:first-child span { height: 235px;}
-.wrap_event .numDesign li:nth-child(2) span { height: 155px;}
+.wrap_event p { white-space: pre-wrap; font-size: 17px; line-height: 24px; } 
+.wrap_event p em.importTxt { font-size: 22px; line-height: 30px; color: #4190FF; font-weight: bold; } 
+.wrap_event .numDesign { position: absolute; background-color: #4190FF; z-index: 9; width: 43px; height: 748px; margin-left: 30px; box-shadow: 5px 1px 4px rgba(0, 0, 0, 0.25); transition-duration:.6s} 
+.wrap_event .numDesign li { padding: 49px 10px; } 
+.wrap_event .numDesign li span { display: block; font-size: 28px; font-weight: bold; text-align: right; } 
+.wrap_event .numDesign li:first-child span { height: 226px; } 
+.wrap_event .numDesign li:nth-child(2) span { height: 131px; } 
 
 /* 섹션 - 폼 */
-.sect_form {padding-bottom:120px}
-div[class^="sect_"].sect_form .txts{margin-bottom:48px;text-align:center}
-div[class^="sect_"].sect_form .txts em {font-size:40px;font-weight:600}
-div[class^="sect_"].sect_form .txts strong {margin-bottom:8px;font-size:56px;line-height:68px;color:#fff}
-div[class^="sect_"].sect_form .txts span {font-size:20px;font-weight:600;color:#fff;line-height:28px}
+.sect_form { padding-bottom: 50px } 
+div[class^="sect_"].sect_form .txts { margin-bottom:48px; text-align:center } 
+div[class^="sect_"].sect_form .txts em { font-size:40px; font-weight:600 } 
+div[class^="sect_"].sect_form .txts strong { margin-bottom:8px; font-size:56px; line-height:68px; color:#fff } 
+div[class^="sect_"].sect_form .txts span { font-size:20px; font-weight:600; color:#fff; line-height:28px } 
 
-.sect_form .hbspt-form {width:664px;margin:0 auto}
-.sect_form form label>span {display:inline-block;vertical-align:top;margin:0 0 10px 12px;font-size:18px;color:#cfcfcf}
-.sect_form form label>span.on {color:#fff}
-.sect_form form fieldset {max-width:none;position:relative}
-.sect_form form fieldset>div.field {position:relative}
-.sect_form form fieldset.form-columns-1 .input {margin:0 12px}
-.sect_form form fieldset.form-columns-2 .input {margin:0 12px}
-.sect_form form .hs-error-msgs {position:absolute;right:12px;top:0}
-.sect_form form .hs-error-msgs .hs-error-msg {font-size:13px;color:#ff5858}
+.sect_form .hbspt-form { width:664px; margin:0 auto } 
+.sect_form form label>span { display:inline-block; vertical-align:top; margin:0 0 10px 12px; font-size:18px; color:#cfcfcf } 
+.sect_form form label>span.on { color:#fff } 
+.sect_form form fieldset { max-width:none; position:relative; margin-bottom: 10px } 
+.sect_form form fieldset>div.field { position:relative } 
+.sect_form form fieldset.form-columns-1 .input { margin:0 12px } 
+.sect_form form fieldset.form-columns-2 .input { margin:0 12px } 
+.sect_form form .hs-error-msgs { position:absolute; right:12px; top:0 } 
+.sect_form form .hs-error-msgs .hs-error-msg { font-size:13px; color:#ff5858 } 
 .hrevtalks .sect_form form input[type=text],
 .hrevtalks .sect_form form input[type=email],
-.hrevtalks .sect_form form input[type=number] {height:62px;padding-left:24px;box-sizing:border-box;color:#333;line-height:62px;border:1px solid transparent;transition:.3s}
-.hrevtalks .sect_form form input::placeholder {display:none}
+.hrevtalks .sect_form form input[type=number],
+.hrevtalks .sect_form form input[type=tel] { height:62px; padding-left:24px; box-sizing:border-box; color:#333; line-height:62px; border:1px solid transparent; transition:.3s } 
+.hrevtalks .sect_form form input::placeholder { display:none } 
 .hrevtalks .sect_form form input[type=text]:focus,
 .hrevtalks .sect_form form input[type=email]:focus,
-.hrevtalks .sect_form form input[type=number]:focus {border:1px solid #5071FB}
-.hrevtalks .sect_form form .hs_email,
+.hrevtalks .sect_form form input[type=number]:focus { border:1px solid #5071FB } 
 .hrevtalks .sect_form form .hs_name_hrev_talks_,
 .hrevtalks .sect_form form .hs_mobile_phone_hrev_talks,
 .hrevtalks .sect_form form .hs_company_name_hrev_talks_, 
 .hrevtalks .sect_form form .hs_company_size_hrev_talks,
-.hrevtalks .sect_form form .hs_job_field {margin-bottom:24px}
-.hrevtalks .sect_form form input.hs-input {width:100%;border-radius:8px;border:1px solid transparent;background-color:#ededed}
-.hrevtalks .sect_form form input.hs-input:focus {border:1px solid #5071F8}
-.hrevtalks .sect_form form select {width:100%;height:62px;padding:0 24px;color:#888;border-radius:8px;
-  appearance:none;
-  -webkit-appearance:none;
-  background:url(https://4570750.fs1.hubspotusercontent-na1.net/hubfs/4570750/HREVTALKS/Ep.02/ico_select.png) right center no-repeat;
-  background-size:contain;
-  background-color:#ededed}
+.hrevtalks .sect_form form .hs_job_field { margin-bottom:24px }
+.hrevtalks .sect_form form input.hs-input { height:56px; width:100%; border-radius:8px; border:1px solid transparent; background-color:#ededed; color: #222; font-size: 18px } 
+.hrevtalks .sect_form form input.hs-input:focus { border:1px solid #5071F8 } 
+.hrevtalks .sect_form form select { width:100%; height:56px; padding:0 24px; color:#222; border-radius:8px; appearance:none; -webkit-appearance:none; background:url(https://4570750.fs1.hubspotusercontent-na1.net/hubfs/4570750/HREVTALKS/Ep.02/ico_select.png) right center no-repeat; background-size:contain; background-color:#ededed } 
+.hrevtalks .sect_form form select option { color:#222; }
 .sect_form form .hs-check label>span,
-.sect_form form .hs-checkbox label>span {margin:0 0 0 26px;font-size:17px;font-weight:500;user-select:none}
+.sect_form form .hs-checkbox label>span { margin:0 0 0 26px; font-size:17px; font-weight:500; user-select:none } 
 .hrevtalks .sect_form .hs-check,
-.hrevtalks .sect_form .hs-checkbox {padding-top:8px}
+.hrevtalks .sect_form .hs-checkbox { padding-top:8px } 
 .hrevtalks .sect_form .hs-check input[type="checkbox"],
-.hrevtalks .sect_form .hs-checkbox input[type="checkbox"] {position:absolute;left:0;top:0;width:1px;height:1px;opacity:0;}
+.hrevtalks .sect_form .hs-checkbox input[type="checkbox"] { position:absolute; left:0; top:0; width:1px; height:1px; opacity:0; } 
 .hrevtalks .sect_form .hs-check input[type="checkbox"]+span:before,
-.hrevtalks .sect_form .hs-checkbox input[type="checkbox"]+span:before {content:'';position:absolute;left:12px;top:13px;width:16px;height:16px;border:1px solid #909090;border-radius:4px;box-sizing:border-box;background-color:#ededed;cursor:pointer}
+.hrevtalks .sect_form .hs-checkbox input[type="checkbox"]+span:before { content:''; position:absolute; left:12px; top:13px; width:16px; height:16px; border:1px solid #909090; border-radius:4px; box-sizing:border-box; background-color:#ededed; cursor:pointer } 
 .hrevtalks .sect_form .hs-check input[type="checkbox"]:checked+span:before,
-.hrevtalks .sect_form .hs-checkbox input[type="checkbox"]:checked+span:before {border:1px solid transparent;background:url(https://4570750.fs1.hubspotusercontent-na1.net/hubfs/4570750/HREVTALKS/Ep.02/ico_check.png) 0.5px center no-repeat;background-size:12px auto;background-color:#5071F8}
+.hrevtalks .sect_form .hs-checkbox input[type="checkbox"]:checked+span:before { border:1px solid transparent; background:url(https://4570750.fs1.hubspotusercontent-na1.net/hubfs/4570750/HREVTALKS/Ep.02/ico_check.png) 0.5px center no-repeat; background-size:12px auto; background-color:#5071F8 } 
 .hrevtalks .sect_form .hs-check a,
-.hrevtalks .sect_form .hs-checkbox a{display:inline-block;vertical-align:top;font-weight:500;color:#cfcfcf;text-decoration:underline;transition:.3s;cursor:pointer}
+.hrevtalks .sect_form .hs-checkbox a { display:inline-block; vertical-align:top; font-weight:500; color:#cfcfcf; text-decoration:underline; transition:.3s; cursor:pointer } 
 .hrevtalks .sect_form .hs-check a:hover,
-.hrevtalks .sect_form .hs-checkbox a:hover {color:#fff}
-.sect_form form .hs-check .hs-error-msgs .hs-error-msg {right:auto;left:300px;top:7px}
-.hrevtalks .sect_form .hs-button {width:calc(100% - 24px);height:62px;margin:16px 12px 0;line-height:62px;font-size:18px;color:#fff;font-weight:600;border:none;background-color:#21BBD0;border-radius:8px;transition:.5s;cursor:pointer}
-.hrevtalks .sect_form .hs-button:hover {background-color:#28C9C4}
-.sect_form form span.hs-form-required {display:none}
+.hrevtalks .sect_form .hs-checkbox a:hover { color:#fff } 
+.sect_form form .hs-check .hs-error-msgs .hs-error-msg { right:auto; left:300px; top:7px } 
+.hrevtalks .sect_form .hs-button { width:calc(100% - 24px); height:62px; margin:16px 12px 0; line-height:62px; font-size:18px; color:#fff; font-weight:600; border:none; background-color:#21BBD0; border-radius:8px; transition:.5s; cursor:pointer } 
+.hrevtalks .sect_form .hs-button:hover { background-color:#28C9C4 } 
+.sect_form form span.hs-form-required { display:none } 
 
 /* 서밋메시지 */
-.hrevtalks .submitted-message {text-align:center}
-.hrevtalks .submitted-message strong {display:inline-block}
-.hrevtalks .submitted-message a {display:inline-block}
-.hrevtalks .submitted-message p:last-of-type a {color:#127bec;text-decoration:underline}
+.hrevtalks .submitted-message { text-align:center } 
+.hrevtalks .submitted-message strong { display:inline-block } 
+.hrevtalks .submitted-message a { display:inline-block } 
+.hrevtalks .submitted-message p:last-of-type a { color:#127bec; text-decoration:underline } 
 
 /* 모달 */
-.wrap_modal {display:none;position:fixed;width:100vw;height:100vh;z-index:9999}
-.wrap_modal.on {display:block}
-.wrap_modal .dim {display:none;width:100vw;height:100vh;background-color:rgba(0,0,0,.75);position:absolute}
-.wrap_modal.on .dim {display:block}
-.wrap_modal .btn_close {position:absolute;right:12px;top:12px;width:36px;height:36px;background:url(https://4570750.fs1.hubspotusercontent-na1.net/hubfs/4570750/HREVTALKS/Ep.02/ico_close.png) center center no-repeat;background-size:12px;cursor:pointer}
-.wrap_modal div[class^="modal"] {display:none;position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:640px;padding:32px;border-radius:8px;background-color:#ededed}
-.wrap_modal div[class^="modal"].modal_privacy.on {display:block}
-.wrap_modal div[class^="modal"].modal_marketing.on {display:block}
-.wrap_modal div[class^="modal"] strong {font-size:24px;font-weight:600;line-height:34px;color:#222}
-.wrap_modal div[class^="modal"] dt {margin-top:12px;font-size:15px;font-weight:600;line-height:22px;color:#333}
-.wrap_modal div[class^="modal"] dd {padding-left:12px;font-size:15px;font-weight:normal;line-height:22px;color:#4e4e4e;position:relative}
-.wrap_modal div[class^="modal"] dd:before {content:'-';position:absolute;left:0;top:0;font-size:15px;font-weight:normal;color:#4e4e4e}
- 
-@media (max-width:1460px) {
-  .swiper-button-prev, .swiper-button-next {display:none}
-}
+.wrap_modal { display:none; position:fixed; width:100vw; height:100vh; z-index:9999 } 
+.wrap_modal.on { display:block } 
+.wrap_modal .dim { display:none; width:100vw; height:100vh; background-color:rgba(0,0,0,.75); position:absolute } 
+.wrap_modal.on .dim { display:block } 
+.wrap_modal .btn_close { position:absolute; right:12px; top:12px; width:36px; height:36px; background:url(https://4570750.fs1.hubspotusercontent-na1.net/hubfs/4570750/HREVTALKS/Ep.02/ico_close.png) center center no-repeat; background-size:12px; cursor:pointer } 
+.wrap_modal div[class^="modal"] { display:none; position:absolute; left:50%; top:50%; transform:translate(-50%,-50%); width:640px; padding:32px; border-radius:8px; background-color:#ededed } 
+.wrap_modal div[class^="modal"].modal_privacy.on { display:block } 
+.wrap_modal div[class^="modal"].modal_marketing.on { display:block } 
+.wrap_modal div[class^="modal"] strong { font-size:24px; font-weight:600; line-height:34px; color:#222 } 
+.wrap_modal div[class^="modal"] dt { margin-top:12px; font-size:15px; font-weight:600; line-height:22px; color:#333 } 
+.wrap_modal div[class^="modal"] dd { padding-left:12px; font-size:15px; font-weight:normal; line-height:22px; color:#4e4e4e; position:relative } 
+.wrap_modal div[class^="modal"] dd:before { content:'-'; position:absolute; left:0; top:0; font-size:15px; font-weight:normal; color:#4e4e4e } 
+.sect_form .wrap_links {width:640px;margin:48px auto 0;padding:48px 0;border-top:1px solid #393A3C;text-align:center}
+.sect_form .wrap_links span {font-size:16px;color:#cecece;line-height:38px}
+.sect_form .wrap_links ul {margin-left:32px;display:inline-block;vertical-align:top}
+.sect_form .wrap_links ul li {float:left}
+.sect_form .wrap_links ul li+li {margin-left:10px}
+.sect_form .wrap_links ul li a {width:38px;height:38px;line-height:38px;background-color:#39404A;border-radius:50%;font-size:24px;color:#bbb;transition:.3s}
+.sect_form .wrap_links ul li:nth-child(3) a {font-weight:800}
+.sect_form .wrap_links ul li a i {margin-top:7px;font-size:24px;color:#bbb;transition:.3s}
+.sect_form .wrap_links ul li a:hover,
+.sect_form .wrap_links ul li a:hover i {color:#eee}
+
+
+
+.aboutVideo { display: none; }
+
+
+@media (max-width:1460px){
+ .swiper-button-prev, .swiper-button-next { display:none } 
+ }
 
 @media (max-width:1312px){
-  .hrevtalks * {font-size:16px;line-height:22px}
-  input[type=text], input[type=file], textarea {font-size:16px}
-  .header_hrevtalks .inner {width:1024px}
-  .inner {width:1024px !important}
-  .mainvisual .inner {height:620px}
-  .mainvisual .txts {width:394px;margin-right:72px;padding-top:220px}
-  .mainvisual .txts em {font-size:18px;line-height:26px}
-  .mainvisual .txts strong {font-size:48px;line-height:60px}
-  .mainvisual .txts a {width:192px;font-size:16px}
-  .mainvisual .visual {width:558px;padding-top:128px}
-  
-  .hrevtalks div[class^="sect_"] {padding-top:92px}
-  .hrevtalks div[class^="sect_"] .txts em {font-size:26px}
-  .hrevtalks div[class^="sect_"] .txts strong {margin-bottom:10px;font-size:36px;line-height:48px}
-  .sect_about .explain img {width:142px}
-  
-  .sect_agenda .inner {width:1012px !important}
-  .sect_agenda .swiper-slide {height:372px}
-  .sect_agenda .swiper-slide ul li:nth-child(3) {margin:0 0 0 16px}
-  .sect_agenda .swiper-slide strong {font-size:26px;line-height:36px}
-  
-  .sect_event div[class^="event"] {width:100%;height:306px;padding:32px 0 0 32px;background-size:188px auto}
-  .sect_event .event1 {padding:0}
-  .sect_event .event1 a {height:100%;padding:32px 0 0 32px}
-  .sect_event div[class^="event"].event2 { background-size:222px auto;background-position:right 136px}
-  .sect_event .event3 .links {left:88px;top:448px}
-  
-  .hrevtalks .sect_form form .hs_email,
-  .hrevtalks .sect_form form .hs_name_hrev_talks_,
-  .hrevtalks .sect_form form .hs_mobile_phone_hrev_talks,
-  .hrevtalks .sect_form form .hs_company_name_hrev_talks_,
-  .hrevtalks .sect_form form .hs_company_size_hrev_talks,
-  .hrevtalks .sect_form form .hs_job_field {margin-bottom:20px}
-  .sect_form form label>span {font-size:17px}
-  
-}
+ .hrevtalks * { font-size:16px; line-height:22px } 
+ input[type=text], input[type=file], textarea { font-size:16px } 
+ .header_hrevtalks .inner { width:1024px } 
+ .inner { width:1024px !important } 
+ .mainvisual .inner { height:620px } 
+ .mainvisual .txts {  padding-top: 155px } 
+ .mainvisual .txts em { margin-bottom: 30px; font-size:18px; line-height:26px }
+ .mainvisual .txts span {margin: 20px 0;}
+ .mainvisual .txts strong { font-size:48px; line-height:60px } 
+ .mainvisual .txts a { width:192px; font-size:16px } 
+ .mainvisual .visual { width: 365px; padding-top: 145px } 
+ 
+ .hrevtalks div[class^="sect_"] { padding-top:92px } 
+ .hrevtalks div[class^="sect_"] .txts em { font-size:26px } 
+ .hrevtalks div[class^="sect_"] .txts strong { margin-bottom:10px; font-size:36px; line-height:48px } 
+ .sect_about .explain img { width:142px } 
+ 
+ .sect_agenda .inner { width:1012px !important } 
+ .sect_agenda .swiper-slide { height:372px } 
+ .sect_agenda .swiper-slide ul li:nth-child(3) { margin:0 0 0 16px } 
+ .sect_agenda .swiper-slide strong { font-size:26px; line-height:36px } 
 
-@media (max-width:768px) {
-  .brin {display:inline}
-  .inbr {display:block}
-  .wrap_modal div[class^="modal"] {width:320px}
-  .wrap_modal .btn_close {width:32px;height:32px}
-  .wrap_modal div[class^="modal"] strong {display:block;margin-bottom:16px;font-size:18px;line-height:25px}
-  .wrap_modal div[class^="modal"] dt {margin-top:10px}
-  .wrap_modal div[class^="modal"] dt,
-  .wrap_modal div[class^="modal"] dd {font-size:14px;line-height:21px}
-  .hrevtalks .inner {width:auto !important;padding: 0 20px !important}
-  .header_hrevtalks .inner {width:100% !important;height:70px}
-  .header_hrevtalks h2 a {height:70px;line-height:70px}
-  .header_hrevtalks .nav_scroll ul li:not(:last-child) {display:none}
-  .header_hrevtalks .nav_scroll ul li a {line-height:70px}
-  
-  .mainvisual .inner {height:calc(100vh - 60px);min-height:636px;max-height:768px;padding:0 !important;position:relative}
-  .mainvisual .txts {float:none;width:100%;padding-top:118px;text-align:center}
-  .mainvisual .txts em {margin-bottom:8px}
-  .mainvisual .txts strong {margin-bottom:40px;font-size:38px;line-height:49px}
-  
-  .mainvisual .visual {float:none;position:absolute;bottom:-15px;width:100%;padding-top:0}
-  .mainvisual .visual img {display:none}
-  .mainvisual .visual img+img {display:block;transform:translateY(0)}
-  
-  .hrevtalks div[class^="sect_"] {padding-top:56px}
-  .hrevtalks div[class^="sect_"] .txts em {font-size:22px;line-height:31px}
-  .hrevtalks div[class^="sect_"] .txts strong {margin-bottom:8px;font-size:32px;line-height:42px} 
-  .hrevtalks div[class^="sect_"] .txts p {margin-bottom:32px}
-  
-  .sect_about {padding-bottom:56px}
-  .sect_about .explain {width:100%;padding-top:56px;text-align:center}
-  .sect_about .explain img {display:inline-block;vertical-align:top;float:none;width:68px;margin:0 0 14px}
-  .sect_about .explain .txts strong {margin-top:0}
-  
-  .sect_about .attend {padding-top:56px}
-  .sect_about .attend ul li {width:100%}
-  .sect_about .attend ul li+li {margin-top:8px}
-  .sect_about .attend ul li img {margin-top:24px}
-  .sect_about .attend ul li+li:before {display:none}
-  
-  .sect_agenda .inner {transform:translateX(0)}
-  .sect_agenda .inner>strong {margin-bottom:16px;font-size:32px;line-height:42px}
-  .sect_agenda .agenda_slider {display:none}
-  .sect_agenda .agenda_slider.mobile {display:block}
-  .sect_agenda .swiper-slide {width:100%;padding:24px 16px 32px}
-  .sect_agenda .swiper-slide{height:auto}
-  .sect_agenda .swiper-slide+.swiper-slide {margin-top:16px}
-  .sect_agenda .swiper-slide em { font-size:12px;line-height:25px}
-  .sect_agenda .swiper-slide strong {margin-bottom:8px;font-size:20px;line-height:28px}
-  .sect_agenda .swiper-slide em+span {display:inline-block;vertical-align:top;margin:2px 0 0 11px;font-size:16px;color:#64D0DF;font-weight:normal}
-  .sect_agenda .swiper-slide em+span i {vertical-align:top;margin-right:4px;color:#64D0DF}
-  .sect_agenda .swiper-slide ul {position:static;left:auto;bottom:auto;margin-top:32px}
-  .sect_agenda .swiper-slide ul li+li {margin-left:16px}
-/*   .sect_agenda .swiper-slide ul li:nth-child(3) {margin:16px 0 0} */
-  .sect_agenda .swiper-slide ul li img {width:64px}
-  .sect_agenda .swiper-slide ul li dl>* {font-size:12px;line-height:18px}
-  .sect_agenda .swiper-slide ul li dl>dt {margin:10px 0 4px}
-  
-  .sect_event .inner>strong {margin-bottom:16px;font-size:32px;line-height:44px}
-  .sect_event .wrap_event {float:none}
-  .sect_event div[class^="event"] {width:100%;height:350px;padding:24px 0 0 16px;background-position:left bottom}
-  .sect_event div[class^="event"] strong {font-size:20px;line-height:28px}
-  
-  .sect_event div[class^="event"].event1 {background-size:208px auto;background-position:-20px bottom}
-  .sect_event .event1 a {padding:24px 16px 0}
-  .sect_event .event1 span {position:absolute;right:16px;bottom:16px}
-  
-  .sect_event div[class^="event"].event2 { width: 100%; margin-top:16px;background-size:246px auto;background-position:right 156px}
-  .sect_event div[class^="event"].event3 {
-    width: 100%;
-    height:350px;
-    background-image:url(https://4570750.fs1.hubspotusercontent-na1.net/hubfs/4570750/HREVTALKS/Ep.02/img_event3_m.png);
-    background-position:center bottom;
-    background-size:302px auto; 
-  }
-  .sect_event .event3 .links {width:302px;left:50%;transform:translateX(-40%);top:auto;bottom:21px}
-  .sect_event .event3 .links a {font-size:15px;line-height:22px}
-  .sect_event .event3 .links a span {font-size:15px;line-height:22px}
-  .sect_event .event3 .links a span:before {top:5px;height:13px}
-  
-  
-  .sect_form {padding-bottom:56px}
-  div[class^="sect_"].sect_form .txts {margin-bottom:32px}
-  div[class^="sect_"].sect_form .txts em {font-size:28px}
-  div[class^="sect_"].sect_form .txts strong {margin-bottom:8px}
-  div[class^="sect_"].sect_form .txts span {font-size:18px;line-height:26px}
-  .sect_form .hbspt-form {width:100%}
-  .sect_form form fieldset.form-columns-1 .input {margin:0}
-  .sect_form form fieldset.form-columns-2 .input {margin:0}
-  .hrevtalks .sect_form form input.hs-input {width:100% !important}
-  .hrevtalks .sect_form form select {width:100% !important;height:56px;line-height:56px}
-  .sect_form form label>span {font-size:16px;margin:0 0 8px 0}
-  .hrevtalks .sect_form form .hs_email,
-  .hrevtalks .sect_form form .hs_name_hrev_talks_,
-  .hrevtalks .sect_form form .hs_mobile_phone_hrev_talks,
-  .hrevtalks .sect_form form .hs_company_name_hrev_talks_,
-  .hrevtalks .sect_form form .hs_company_size_hrev_talks,
-  .hrevtalks .sect_form form .hs_job_field {margin-bottom:16px}
-  .hrevtalks .sect_form form input[type=text],
-  .hrevtalks .sect_form form input[type=email],
-  .hrevtalks .sect_form form input[type=number] {height:56px;line-height:56px}
-  .sect_form form .hs-check label>span,
-  .sect_form form .hs-checkbox label>span {font-size:14px;margin-left:28px}
-  .hrevtalks .sect_form .hs-check a, .hrevtalks .sect_form .hs-checkbox a {font-size:14px}
-  .hrevtalks .sect_form .hs-check input[type="checkbox"]+span:before,
-  .hrevtalks .sect_form .hs-checkbox input[type="checkbox"]+span:before {top:10px;left:0;width:20px;height:20px}
-  .hrevtalks .sect_form .hs-check input[type="checkbox"]:checked+span:before,
-  .hrevtalks .sect_form .hs-checkbox input[type="checkbox"]:checked+span:before {background-position:3px center}
-  .hrevtalks .sect_form .hs-button {width:100%;height:56px;line-height:56px;margin:16px 0 0} 
-    
-  .hrevtalks .sect_form .hs-check .hs-error-msgs {position:static;margin-left:28px}
-}
+ .sect_event .event3 .links { left:88px; top:448px } 
+ 
+ .hrevtalks .sect_form form .hs_email,
+ .hrevtalks .sect_form form .hs_name_hrev_talks_,
+ .hrevtalks .sect_form form .hs_mobile_phone_hrev_talks,
+ .hrevtalks .sect_form form .hs_company_name_hrev_talks_,
+ .hrevtalks .sect_form form .hs_company_size_hrev_talks,
+ .hrevtalks .sect_form form .hs_job_field { margin-bottom:0px } 
+ .sect_form form label>span { font-size:17px } 
+ }
 
-@media (max-width:526px) {
-  .sect_agenda .swiper-slide ul li:nth-child(3) {margin:16px 0 0}
-}
+.hs-form-7ee7ca58-ebc5-4e76-a417-c711d04ab93d_be2a3890-87f4-47e8-96b6-4a8196bb1d78 fieldset.form-columns-2 .hs-form-field { width: 100% !impoortant; float:initial !impoortant;}
+@media (max-width:768px){
+ .brin { display:inline } 
+ .inbr { display:block } 
+ .wrap_modal div[class^="modal"] { width:320px } 
+ .wrap_modal .btn_close { width:32px; height:32px } 
+ .wrap_modal div[class^="modal"] strong { display:block; margin-bottom:16px; font-size:18px; line-height:25px } 
+ .wrap_modal div[class^="modal"] dt { margin-top:10px } 
+ .wrap_modal div[class^="modal"] dt,
+ .wrap_modal div[class^="modal"] dd { font-size:14px; line-height:21px } 
+ .hrevtalks .inner { width: 100% !important; padding: 0 20px !important } 
+ .header_hrevtalks .inner { width:100% !important; height:70px } 
+ .header_hrevtalks h2 a { height:70px; line-height:70px } 
+ .header_hrevtalks .nav_scroll ul li:not(:last-child) { display:none } 
+ .header_hrevtalks .nav_scroll ul li a { line-height:70px } 
+ 
+ .mainvisual .inner { height:calc(100vh - 60px); min-height:636px; max-height:768px; padding:0 !important; position:relative } 
+ .mainvisual .txts { float:none; width:100%; padding-top:118px; text-align:center } 
+ .mainvisual .txts em { margin-bottom:8px } 
+ .mainvisual .txts strong { margin-bottom:40px; font-size:38px; line-height:49px; word-break: keep-all;} 
+ 
+ .mainvisual .visual { float:none; position:absolute; bottom:-15px; width:100%; padding-top:0 } 
+ .mainvisual .visual img { display:none } 
+ .mainvisual .visual img+img { display:block; transform:translateY(0) } 
+ 
+ .hrevtalks div[class^="sect_"] { padding-top: 45px } 
+ .hrevtalks div[class^="sect_"] .txts { text-align: left; } 
+ .hrevtalks div[class^="sect_"] .txts em { font-size:22px; line-height:31px } 
+ .hrevtalks div[class^="sect_"] .txts strong { margin-bottom:8px; font-size: 20px; line-height: 26px } 
+ .hrevtalks div[class^="sect_"] .txts p { white-space: initial; margin-bottom:32px; text-align: left; } 
+ .numDesign { display: none;}
+ .historyInner { display: none;}
+ .sect_about .inner>.txts { align-items:flex-start; } 
+  .sect_about { padding: 70px 0 20px 0 !important;} 
+ .sect_about .explain { width:100%; padding-top:56px; text-align:center } 
+ .sect_about .explain img { display:inline-block; vertical-align:top; float:none; width:68px; margin:0 0 14px } 
+ .sect_about .explain .txts strong { margin-top:0; text-align: center;} 
+ .sect_about .explain .txts p { text-align: center !important; white-space: initial; } 
+ .sect_about .attend { padding-top:56px } 
+ .sect_about .attend ul li { width:100% } 
+ .sect_about .attend ul li+li { margin-top:8px } 
+ .sect_about .attend ul li img { margin-top:24px } 
+ .sect_about .attend ul li+li:before { display:none } 
+ .sect_about .attend ul li span { flex-direction: column; font-size: 16px;}
+ .sect_about .attend ul li span em { margin-right: 0;}
+ .sect_about .attend ul li { margin-bottom: 15px;}
+ .sect_about .attend ul li span i.importTxt { margin-left: 0;}
+ .sect_about .attend ul li span i.importTxt { font-size: 16px;}
+
+
+ .sect_agenda .inner { transform:translateX(0) } 
+ .sect_agenda .inner>strong { margin-bottom:16px; font-size:32px; line-height:42px } 
+ .sect_agenda .agenda_slider { display:none } 
+ .sect_agenda .agenda_slider.mobile { display:block } 
+ .sect_agenda .swiper-slide { width:100%; padding:24px 16px 32px } 
+ .sect_agenda .swiper-slide { height:auto } 
+ .sect_agenda .swiper-slide+.swiper-slide { margin-top:16px } 
+ .sect_agenda .swiper-slide em { font-size:12px; line-height:25px } 
+ .sect_agenda .swiper-slide strong { margin-bottom:8px; font-size:20px; line-height:28px; word-break: keep-all; } 
+ .sect_agenda .swiper-slide em+span { display:inline-block; vertical-align:top; margin:2px 0 0 11px; font-size:16px; color:#64D0DF; font-weight:normal } 
+ .sect_agenda .swiper-slide em+span i { vertical-align:top; margin-right:4px; color:#64D0DF } 
+ .sect_agenda .swiper-slide ul { position:static; left:auto; bottom:auto; margin-top:32px } 
+ .sect_agenda .swiper-slide ul li+li { margin-left:16px } 
+/* .sect_agenda .swiper-slide ul li:nth-child(3) { margin:16px 0 0 } */
+ .sect_agenda .swiper-slide ul li img { width:64px } 
+ .sect_agenda .swiper-slide ul li dl>* { font-size:12px; line-height:18px } 
+ .sect_agenda .swiper-slide ul li dl>dt { margin:10px 0 4px } 
+ 
+ .sect_event .inner>strong { margin-bottom:16px; font-size:32px; line-height:44px } 
+ .sect_event .wrap_event { float:none } 
+ .sect_event div[class^="event"] { width:100%; height: 100%; padding: 20px 20px 128px 20px;background-position:left bottom } 
+ .sect_event div[class^="event"] strong { font-size:20px; line-height:28px } 
+ 
+ .sect_event div[class^="event"].event1 {background-size: 208px auto; padding: 20px 20px 128px 20px; height: 100%; background: #fff url(https://www.midashri.com/hubfs/HREVTALKS/Ep.04/event-1-3.png) right bottom no-repeat; background-size: 180px; } 
+ .sect_event .event1 strong { flex-direction: column; align-items: flex-start;}
+ .sect_event .event1 strong a { padding: 8px 18px; margin-left: 0; margin-top: 10px; line-height: 30px; }
+ .sect_event .event1 a { padding:24px 16px 0 } 
+ .sect_event .event1 span { position:absolute; right:16px; bottom:16px } 
+ .wrap_event p em.importTxt { font-size: 16px;}
+ .sect_event div[class^="event"].event2 { height: 100%; width: 100%; margin-top:16px; background-size:  170px auto; background-position:right 156px } 
+ .sect_event div[class^="event"].event3 { width: 100%; height: 100%; background-image:url(https://www.midashri.com/hubfs/HREVTALKS/Ep.04/event-3-2.png); background-position: right bottom; background-size: 170px auto; } 
+ .sect_event .event3 .links { width:302px; left:50%; transform:translateX(-40%); top:auto; bottom:21px } 
+ .sect_event .event3 .links a { font-size:15px; line-height:22px } 
+ .sect_event .event3 .links a span { font-size:15px; line-height:22px } 
+ .sect_event .event3 .links a span:before { top:5px; height:13px } 
+ .faqInner { padding: 35px 0;}
+ .faqInner ul li { margin-bottom: 15px;}
+ .faqInner ul li span { font-size: 17px;}
+ .faqInner ul li em { font-size: 17px; white-space: initial; }
+ .faqInner ul li i.importTxt { font-size: 17px;}
+ .sect_form { padding-bottom:56px } 
+ div[class^="sect_"].sect_form .txts { margin-bottom:32px } 
+ div[class^="sect_"].sect_form .txts em { font-size:28px } 
+ div[class^="sect_"].sect_form .txts strong { margin:8px 0; } 
+ div[class^="sect_"].sect_form .txts span { font-size:18px; line-height:26px } 
+ .sect_form .hbspt-form { width:100% }  
+ .hrevtalks .sect_form form input.hs-input { width:100% !important; margin-bottom: 10px } 
+ .hrevtalks .sect_form form select { width:100% !important; height:56px; line-height:56px } 
+ .sect_form form label>span { font-size:16px; margin:0 0 8px 0 } 
+ .hrevtalks .sect_form form .hs_name_hrev_talks_,
+ .hrevtalks .sect_form form .hs_mobile_phone_hrev_talks,
+ .hrevtalks .sect_form form .hs_company_name_hrev_talks_,
+ .hrevtalks .sect_form form .hs_company_size_hrev_talks,
+ .hrevtalks .sect_form form .hs_job_field { margin-bottom:16px } 
+ .hrevtalks .sect_form form input[type=text],
+ .hrevtalks .sect_form form input[type=email],
+ .hrevtalks .sect_form form input[type=number] { height:56px; line-height:56px } 
+ .sect_form form .hs-check label>span,
+ .sect_form form .hs-checkbox label>span { font-size:14px; margin-left:28px } 
+ .hrevtalks .sect_form .hs-check a, .hrevtalks .sect_form .hs-checkbox a { font-size:14px } 
+ .hrevtalks .sect_form .hs-check input[type="checkbox"]+span:before,
+ .hrevtalks .sect_form .hs-checkbox input[type="checkbox"]+span:before { top:10px; left:0; width:20px; height:20px } 
+ .hrevtalks .sect_form .hs-check input[type="checkbox"]:checked+span:before,
+ .hrevtalks .sect_form .hs-checkbox input[type="checkbox"]:checked+span:before { background-position:3px center } 
+ .hrevtalks .sect_form .hs-button { width:100%; height:56px; line-height:56px; margin:16px 0 0 } 
+ .aboutVideo { display: block; }
+  .aboutVideo iframe { width: 100%; height: 190px }
+ .hrevtalks .sect_form .hs-check .hs-error-msgs { position:static; margin-left:28px } 
+  
+  .sect_form .wrap_links {width:auto;margin-top:0;border-top:none;}
+  .sect_form .wrap_links span {display:block;line-height:24px;text-align:center}
+  .sect_form .wrap_links ul {margin:8px 0 0 0}
+ }
+
+@media (max-width:526px){
+ .sect_agenda .swiper-slide ul li:nth-child(3) { margin:16px 0 0 } 
+ }
 
 
 
